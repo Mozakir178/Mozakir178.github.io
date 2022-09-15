@@ -63,11 +63,13 @@ Have fun creating your portfolio on this template!!! -->
     />
 
     <!-- link tags -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- <script src="https://kit.fontawesome.com/2de91748f2.js" crossorigin="anonymous"></script> -->
     <script src="./javascript/scrollreveal.min.js"></script>
     <script
       defer
@@ -94,27 +96,99 @@ Have fun creating your portfolio on this template!!! -->
   </head>
   <body>
     <!-- Hero Section -->
-    <ul id="nav">
-      <li><a href="#about">About me</a></li>
-      <li><a href="#stacks">Tech Stack</a></li>
-      <li><a href="#skill">skills</a></li>
-      <li><a href="#projects">projects</a></li>
-      <li><a href="#contact">Contact me</a></li>
-    </ul>
-    <div id="hero">
+  <!-- <section> -->
+    <nav id="header">
+      <ul id="nav">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#stacks">Tech Stack</a></li>
+        <li><a href="#skill">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">Contact me</a></li>
+      </ul>
+      <div id="name">
+        <h1>Mohammad Zakir</h1>
+        <p id="clickme" onclick="myFun()">click</p>
+      </div>
+    </nav>
+
+    
+    
+  <!-- </section> -->
+
+  <ul id="nav2">
+    <li><a href="#about">About me</a></li>
+    <li><a href="#stacks">Tech Stack</a></li>
+    <li><a href="#skill">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">Contact me</a></li>
+  </ul>
+
+
+        <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Mohammad Zakir</span>
+          Hi, I am <span class="text-color-main name">Mohammad Zakir</span>
           <br />
-          I'm a Java Backend Developer.
+          <h3 class="hero-title" style="font-size: 30px;">I'm a Java Backend Developer.</h3>
         </h1>
+        <footer class="footer" style="background-color: white;">
+          <!-- <style>
+            .social-links a{
+              background-color: black;
+            }
+          </style> -->
+          <div class="container">
+         
+            <div class="social-links">
+              <a
+                href="#!"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter"
+              >
+               <img src="./assets/github.png" alt="">
+              </a>
+              <a
+                href="#!"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="instagram"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.hackerrank.com/mozakir178"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="codepen"
+              >
+                <i class="fa fa-codepen"></i>
+              </a>
+              <a
+                href="#!"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="linkedin"
+              >
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a
+                href="#!"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="github"
+              >
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+           
+          </div>
+        </footer>
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" download href="https://drive.google.com/u/0/uc?id=1186-Zz9o-0krtOuLW-8LO72lLmgTosB_&export=download">Get in touch</a>
         </p>
       </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
+     
     </div>
     <!-- /END Hero Section -->
 
@@ -227,14 +301,15 @@ Have fun creating your portfolio on this template!!! -->
         <div class="about-wrapper__info" >
           <div id="skills">
    
-            <div class="stack"></div>
-            <div class="stack"></div>
-            <div class="stack"></div>
-            <div class="stack"></div>
-            <div class="stack"></div>
-            <div class="stack"></div>
-            <div class="stack"></div>
-            <div class="stack"></div>
+            <div class="stack">
+             <img src="./assets/col.jpg" alt=""></div>
+            <div class="stack">Team Work</div>
+            <div class="stack">Time Management</div>
+            <div class="stack">Team Management</div>
+            <div class="stack">Problem Solving</div>
+            <div class="stack">Remote Work</div>
+            <div class="stack">Critical Thinker</div>
+            <div class="stack">Listning</div>
             <div class="stack"></div>
       
           </div>
@@ -257,17 +332,14 @@ Have fun creating your portfolio on this template!!! -->
               <p class="project-wrapper__text-info">
                 
                 <strong>Position:</strong> Team Leader <br>
-                Duration: 1 Week <br>
-                Responsibilities: Managed team | Managed Git
+                <strong>Type: </strong> Group project <br>
+                <strong>Duration:</strong> 1 Week <br>
+                <strong>Responsibilities:</strong>  Managed Git
                 Repository | Life section | Payment Page | Address Page <br>
-                Tech Stack Used: JavaScript | HTML | CSS <br>
-                Description: Myteresa.com is an E-commerce website
+                <strong>Tech Stack:</strong> JavaScript | HTML | CSS <br>
+                <strong>Description:</strong> Myteresa.com is an E-commerce website
                 famous for its luxury products. We built the clone of
-                Myteresa.com clone within 1 week. It was a Team
-                collaborative project in which I got a chance to lead the
-                team. I lead the 7 member team. We all work
-                cooperatively to complete this project. It was a great
-                experience.
+                Myteresa.com clone within 1 week.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -287,7 +359,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/mytherasa.jpg"
                     class="img-fluid"
                     alt="Project Image"
                   />
@@ -303,18 +375,15 @@ Have fun creating your portfolio on this template!!! -->
               <h3 class="project-wrapper__text-title">LYST.com-Clone</h3>
               <p class="project-wrapper__text-info">
                 
-                Position: Team Leader <br>
-                Duration: 1 Week  <br>
-                Responsibilities: Managed team | Managed Git
-                Repository | Product Page | Header & Footer | Payment
-                Page  <br>
-                Tech Stack: JavaScript | HTML | CSS | APIs <br>
-                Description: Lyst.com is an E-commerce website that
+                <strong>Position:</strong> Team Leader <br>
+                <strong>Type: </strong> Group project <br>
+                <strong>Duration:</strong> 1 Week <br>
+                <strong>Responsibilities:</strong>  Managed Git
+                Repository | Life page | Payment Page | Address Page<br>
+                <strong>Tech Stack:</strong> JavaScript | HTML | CSS <br>
+                <strong>Description:</strong> Lyst.com is an E-commerce website that
                 hosts the product of all famous brands. It was a Team
-                collaborative project in which we were 5 team members
-                who worked cooperatively. I was the Team Lead for this
-                project. We have completed the clone of Lyst.com within
-                1 week. It was great learning.
+                collaborative project. It was great learning.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -334,7 +403,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/lyst.jpg"
                     class="img-fluid"
                     alt="Project Image"
                   />
@@ -391,8 +460,8 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text"><a href="mailto:mozakir178@gmail.com" class="cta-btn cta-btn--resume">mozakir178@gmail.com</a></p>
+          <a href="tel:+918928121676" class="cta-btn cta-btn--resume">8928121676</a>
         </div>
       </div>
     </section>
@@ -422,7 +491,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa fa-instagram"></i>
           </a>
           <a
-            href="#!"
+            href="https://www.hackerrank.com/mozakir178"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="codepen"
@@ -430,7 +499,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa fa-codepen"></i>
           </a>
           <a
-            href="#!"
+            href="https://www.linkedin.com/in/mozakir178/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
@@ -448,22 +517,38 @@ Have fun creating your portfolio on this template!!! -->
         </div>
         <hr />
         <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
+         
           <a
             href="https://github.com/AnilSeervi"
             target="_blank"
             rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
+            >Mohammad Zakir</a
+          >. <br />Thanks for the visit &hearts;
         </p>
       </div>
     </footer>
     <!-- END Footer Section -->
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
     <script src="./javascript/vanilla-tilt.min.js"></script>
     <script type="text/javascript" src="./javascript/valtilt.js"></script>
   </body>
 </html>
+
+
+<script>
+  document.querySelector('#nav2').style.display = "none";
+  let count = 0 ;
+  function myFun(){
+    let abc = document.querySelector('#nav2');
+    if(count %2==0){
+      abc.style.display = "block" ;
+      
+    }
+    else{
+      abc.style.display = "none" ;
+    }
+
+    count++ ;
+
+  }
+</script>
