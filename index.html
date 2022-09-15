@@ -107,7 +107,7 @@ Have fun creating your portfolio on this template!!! -->
       </ul>
       <div id="name">
         <h1>Mohammad Zakir</h1>
-        <p id="clickme" onclick="myFun()">click</p>
+        <img src="./assets/icons8-dropdown-64.png" id="clickme" onclick="myFun()"></img>
       </div>
     </nav>
 
@@ -536,8 +536,20 @@ Have fun creating your portfolio on this template!!! -->
 
 
 <script>
-  document.querySelector('#nav2').style.display = "none";
+  let ab = document.querySelector('#nav2') ;
+  ab.style.display = "none";
+  // let name = document.querySelector('#name');
+  // if(ab.style.display == "none"){
+  //   name.style.marginBottom = "50px"
+  // }
+  // else{
+  //   name.style.marginBottom = "20px"
+  // }
   let count = 0 ;
+  let width = screen.width ;
+  if(width>=900){
+    ab.style.display = "none";
+  }
   function myFun(){
     let abc = document.querySelector('#nav2');
     if(count %2==0){

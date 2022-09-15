@@ -55,6 +55,8 @@
     list-style: none;
     margin-bottom: 80px;
    font-size: 26px !important;
+   margin-top: -30px;
+   
     
 }
 
@@ -83,9 +85,39 @@
     display: flex !important;
     justify-content: space-between;
     background-color: #00acee;
-    padding: 20px;
+    padding: 5px 50px;
     color: white;
     margin-bottom: 50px;
+    align-items: center;
    }
+}
+
+
+@media screen and (max-width :650px){
+    #nav{
+        display: none;
+      
+        
+    }
+   #name{
+    display: flex !important;
+    justify-content: space-between;
+    background-color: #00acee;
+    padding: 5px 50px;
+    color: white;
+    margin-bottom: 80px;
+    align-items: center;
+   }
+}
+
+
+@media screen and (max-width :450px){
+    #name{
+        margin-bottom: 140px;
+    }
+    #nav2{
+        margin-top: -90px;
+        margin-bottom: 130px;
+    }
 }
 
