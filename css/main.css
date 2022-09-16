@@ -51,6 +51,10 @@
    
 } 
 
+#nav ul li:hover{
+    font-size: 24px !important;
+}
+
 #nav2{
     list-style: none;
     margin-bottom: 80px;
@@ -113,7 +117,7 @@
 
 @media screen and (max-width :450px){
     #name{
-        margin-bottom: 140px;
+        margin-bottom: 100px;
     }
     #nav2{
         margin-top: -90px;
