@@ -6,24 +6,38 @@
     justify-content: center;
     flex-wrap: wrap;
     margin :auto ;
-    width: 70% ;
+    width: 100% ;
     gap:50px ;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    
     padding: auto;
 }
+
 #tachstack>div , #skills>div{
-    width :200px ;
+    width :250px ;
+   
     height: 150px;
    
+}
+
+#tachstack{
+    margin-bottom: 0px;
+}
+
+.section-title{
+    font-weight: bold;
 }
 
 #stacks img , #skills img{
     width: 80px ;
     height: 80px;
+    margin-bottom: 20px;
 
 }
 #stacks h3 , #skills h3{
     font-size: 24px;
+    font-weight: bold !important;
+    color: #092279;
 }
 
 .row p{
