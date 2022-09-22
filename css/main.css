@@ -12,7 +12,22 @@
     
     padding: auto;
 }
-
+#statics{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin :auto ;
+    width: 100% ;
+    gap:50px ;
+    padding: auto;
+    
+} 
+#statics>div{
+    padding-top: 40px;
+    border: 2px solid black;
+    width : 180px ;
+    height: 150px;
+}
 #tachstack>div , #skills>div{
     width :250px ;
    
@@ -34,10 +49,16 @@
     margin-bottom: 20px;
 
 }
-#stacks h3 , #skills h3{
+#stacks h3 , #skills h3 ,#statics h3{
     font-size: 24px;
     font-weight: bold !important;
     color: #092279;
+}
+
+#statics h5{
+    font-size: 18px;
+    font-weight: bold !important;
+    color: #0fb6d7;
 }
 
 .row p{
