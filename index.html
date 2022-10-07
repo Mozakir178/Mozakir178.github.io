@@ -39,33 +39,31 @@
 
   </head>
   <body>
-    <nav id="header">
-     
-      <ul id="nav">
-        <li><a href="#about">About me</a></li>
-        <li><a href="#stacks">Tech Stack</a></li>
-        <li><a href="#skill">skills</a></li>
-        <li><a href="#projects">projects</a></li>
-        <li><a href="#contact">Contact me</a></li>
-      </ul>
-      <div id="name">
-        <h1>Mohammad Zakir</h1>
-        <img src="./assets/icons8-dropdown-64.png" id="clickme" onclick="myFun()"></img>
+
+    <nav class="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="#about">About</a></li>
+              <li><a href="#stacks">Tech Stack</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+          <h1 class="logo">MO ZAKIR</h1>
       </div>
-    </nav>
+  </nav>
 
-  <ul id="nav2">
-    <li><a href="#about">About me</a></li>
-    <li><a href="#stacks">Tech Stack</a></li>
-    <li><a href="#skill">skills</a></li>
-    <li><a href="#projects">projects</a></li>
-    <li><a href="#contact">Contact me</a></li>
-  </ul>
-
-
+<br><br><br>
         <div id="hero">
+         
       <section class="container">
-        
+       
         <h1 class="hero-title">
           Hi, I am <span class="text-color-main name">Mohammad Zakir</span>
           <br />
@@ -159,16 +157,7 @@
     </section>
    <section id="stacks" id="about">
 
-      <style>
-        #stacks img:hover , #skill img:hover{
-          cursor: pointer;
-          width: 120px;
-          height: 120px;
-
-        }
-       
-      </style>
-
+    
     <div class="container">
       <h2 class="section-title"> Known Tech Stacks</h2>
         <div class="about-wrapper__info" >
@@ -583,32 +572,4 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
     <script type="text/javascript" src="./javascript/valtilt.js"></script>
   </body>
 </html>
-
-
-<script>
-  let ab = document.querySelector('#nav2') ;
-  ab.style.display = "none";
-  // let name = document.querySelector('#name');
-  // if(ab.style.display == "none"){
-  //   name.style.marginBottom = "50px"
-  // }
-  // else{
-  //   name.style.marginBottom = "20px"
-  // }
-  let count = 0 ;
-  let width = screen.width ;
-  function myFun(){
-    let abc = document.querySelector('#nav2');
-    if(count %2==0){
-      abc.style.display = "block" ;
-      
-    }
-    else{
-      abc.style.display = "none" ;
-    }
-
-    count++ ;
-
-  }
-</script>
 
