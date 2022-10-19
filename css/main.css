@@ -35,21 +35,21 @@
    
 }
 
-#tachstack{
-    margin-bottom: 0px;
+#tachstack , #skills {
+    width : 90%
 }
 
 .section-title{
     font-weight: bold;
 }
 
-#stacks img , #skills img{
+#tachstack img , #skills img{
     width: 80px ;
     height: 80px;
     margin-bottom: 20px;
 
 }
-#stacks h3 , #skills h3 ,#statics h3{
+#tachstack h3 , #skills h3 ,#statics h3{
     font-size: 24px;
     font-weight: bold !important;
     color: #092279;
@@ -65,7 +65,7 @@
     text-align: justify;
 }
 
-#stacks img:hover , #skill img:hover{
+#tachstack img:hover , #skill img:hover{
     cursor: pointer;
     width: 120px;
     height: 120px;
@@ -75,7 +75,6 @@
     background-color: #00acee;
  } 
  */
-
 
      
 .navbar input[type="checkbox"],
@@ -218,7 +217,7 @@
     .navbar .menu-items li{
         margin-bottom: 1.8rem;
         font-size: 1.1rem;
-        font-weight: 500;
+        font-weight: 500 !;
     }
 
     .logo{
