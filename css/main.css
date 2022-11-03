@@ -29,7 +29,7 @@
 
 .container{
     /* max-width: 1200px; */
-    width: 100%;
+    width: 90%;
     margin: auto;
     
 }
@@ -267,7 +267,15 @@ width: 90%;
 .calendar {
 width: 100%;
 }
+
+.but{
+    display: block;
 }
+.but>button {
+    margin-bottom: 20px;
+}
+}
+
 
 
 
@@ -335,7 +343,7 @@ width: 100%;
 #tachstack h3 , #skills h3 ,#statics h3{
     font-size: 24px;
     font-weight: bold !important;
-    color: #000000;
+    color:  rgb(7, 81, 87);
     text-align: center;
 }
 
@@ -359,7 +367,8 @@ width: 100%;
 #contact p{
 text-align: center;
 border: 3px solid skyblue;
-width: 300px;
+color: white;
+width: 240px;
 margin: auto;
 font-size: 20px;
 margin-bottom: 30px;
@@ -371,6 +380,11 @@ margin-bottom: 30px;
 }
 #contact>h5:first-of-type{
     margin-top: 50px;
+   
+}
+
+#contact>h5{
+    color:goldenrod;
 }
 #contact p:hover{
     background-color: skyblue;
@@ -416,6 +430,22 @@ section>.container{
     color: gold;
 }
 
-.tech{
-    margin-top: 250px;
+.object-cover{
+    border-radius: 30px;
+}
+
+#home>h1{
+    font-size: 50px;
+    color: goldenrod;
+}
+#home>h3{
+    color: goldenrod;
+}
+
+
+@media (max-width: 340px){
+    
+#home>h1{
+    font-size: 40px;
+}
 }
