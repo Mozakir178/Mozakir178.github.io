@@ -39,7 +39,7 @@
     position: fixed;
     width: 100%;
     height: 80px;
-    color: goldenrod;
+    color: white;
 }
 
 .navbar-container{
@@ -65,7 +65,7 @@
 }
 
 .navbar a{
-    color:goldenrod ;
+    color: white ;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
@@ -168,6 +168,9 @@
         margin-bottom: 1.8rem;
         font-size: 1.1rem;
         font-weight: 500 !;
+    }
+    .navbar .menu-items li a{
+        color: black;
     }
 
     .logo{
@@ -427,7 +430,7 @@ section>.container{
 }
 
 .title-font{
-    color: gold;
+    color: white;
 }
 
 .object-cover{
@@ -448,4 +451,22 @@ section>.container{
 #home>h1{
     font-size: 40px;
 }
+}
+
+
+.leading-relaxed{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+ 
+@media (min-width: 765px) and (max-width: 900px){
+section .object-cover{
+ height: 400px;
+}
+} 
+
+strong{
+    color: white;
 }
